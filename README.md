@@ -1,37 +1,20 @@
 # BloomLog — public pages (Apple App Review)
 
-Static **Privacy Policy** and **Support** pages for [BloomLog](https://github.com/springdatauk), hosted on **GitHub Pages**.
+Static **Privacy Policy** and **Support** pages for BloomLog, hosted on **GitHub Pages**.
+
+- **Repository:** [github.com/springdatauk/bloomlog-pages](https://github.com/springdatauk/bloomlog-pages)  
+- **Live site:** [springdatauk.github.io/bloomlog-pages](https://springdatauk.github.io/bloomlog-pages/)
 
 Support email: **hello@springdata.uk**
 
-## Publish on GitHub (springdatauk)
+## Already published
 
-1. **Create a new public repository** on GitHub under the `springdatauk` org, for example:
-   - `bloomlog-pages` (recommended), or  
-   - `bloomlog`
+This repo is wired to **GitHub Pages** (source: **main** → **/docs**). To update the site after editing files:
 
-2. **Push this folder’s contents** as the repo root (include the `docs` folder and this `README.md`):
-
-   ```bash
-   cd bloomlog-pages
-   git init
-   git add .
-   git commit -m "Add BloomLog privacy and support pages for GitHub Pages"
-   git branch -M main
-   git remote add origin https://github.com/springdatauk/bloomlog-pages.git
-   git push -u origin main
-   ```
-
-3. **Enable GitHub Pages**
-   - Repo → **Settings** → **Pages**
-   - **Build and deployment** → Source: **Deploy from a branch**
-   - Branch: **main** · Folder: **/docs** → Save
-
-4. After a minute or two, the site will be live at:
-
-   `https://springdatauk.github.io/bloomlog-pages/`
-
-   (Replace `bloomlog-pages` with your actual repo name if different.)
+```bash
+cd bloomlog-pages
+git add -A && git commit -m "Update pages" && git push
+```
 
 ## URLs for App Store Connect
 
